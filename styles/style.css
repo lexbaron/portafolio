@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+h2{
+    text-align:  center;
+}
+    
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+    background-color: #197f5b; 
+}
+
+ul{
+    
+    width: 100%;
+    height: 300px;
+    background-color: #145c43;
+    text-align: center;
+    transition: all .5s;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0 ; 
+    gap: .75rem;
+    margin-right: 200%;
+    z-index: 9999;
+}
+
+.checkbtn{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-top: 17px;
+    margin-right: 15px;
+    
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ul{
+    margin-right: 0;
+}
+
+nav ul li a{
+    color: #f9f5f2;
+    padding: 3px 3px;
+    border-radius: 5px;
+    
+}
+
+li a:hover, li a.active{
+    background-color: #ef9919;
+    transition: .3s;
+}
+
+#who-i-am{
+width: 100%;
+background-image: url(../Portafolio1/Vectores/Estructura\ home\ mobile.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+#tittle{
+    width: 80%;
+    text-justify:center;
+    height: 100px;
+    text-align: center;
+    color: #f9f5f2 ;
+    position: relative;
+    top: 10%;
+}
+
+#tittle h2 span{
+    color: #ef9919 ;
+}
+
+#experiencia{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.exp{
+    width: 90px;
+    background-color: #f9f5f2 ;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.spanyellow{
+    color: #ef9919 ;
+}
+
+
+#exp1{
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+
+#exp2{
+    position: relative;
+    top: 200px;
+    right: 5%;
+}
+
+#my-photo img{
+    width: 45%;
+    height:auto;
+    border-radius: 80px;
+    position: relative;
+    left: 27.5%;
+    top: 45%;
+    
+}
+
+#icons{
+    width: 60%;
+    display: flex;
+    position: relative;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.icons1{
+    width: 40px;
+    height: 40px;
+    background-color: #f9f5f2 ;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#icon1{
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+}
+
+#icon2{
+    position: relative;
+    bottom: 5px;
+}
+
+#icon3{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+
+
+#input-e-mail{
+    margin: 30px 15px;
+    background-color: rgb(245, 245, 245) ;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#email-put{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(206, 206, 206);
+}
+
+#about-me{
+    width: 90%;
+    margin: 0 0;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#about-me h2{
+    text-align: center;
+}
+
+#about-me p{
+    width: 90%;
+    padding: 0 10px;
+    border-left: solid 5px #197f5b ;
+    margin-left: 15px;
+}
+
+
+#about-me a{
+    display: block;
+    background-color: #197f5b ;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+    color: white;
+    margin-top: 10px;
+}
+
+#about-me a img{
+    text-align: center;
+}
+
+
+
+
+
+#estudios{
+    width: 90%;
+    text-align: center;
+    color: rgb(65, 64, 64);
+    margin-top: 20px;
+    margin-left: 5px ;
+
+}
+
+#studies{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#studies .studie-box{
+    
+   background-color: #f9f5f2;
+   width: 35%;
+   height: 200px;
+   padding: 5px;
+   border-radius: 15px;
+   
+
+}
+
+.studie-box h2{
+    font-size: 16px;
+    font-weight: 600 ;
+}
+
+.studie-box #pequeñas{
+    font-size: 13px;
+}
+
+#mis-habilidades{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#mis-habilidades h2{
+    text-align: center;
+}
+
+.habilitys{
+    margin-bottom: 20px;
+}
+
+.tittle-porcent{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.barras{
+    background-color: #f9f5f2;
+    width: 100%;
+    height: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.barras p{
+    font-size: 13px;
+    margin-left: 2px;
+    color: #197f5b ;
+}
+
+#porcent{
+    width: 10%;
+    height: 100%;
+    background-color: #197f5b ;
+    border-radius: 20px;
+}
+
+#portfolio{
+    width: 100%;
+    padding: 15px;
+}
+
+#portfolio h2{
+    text-align: center;
+}
+
+#description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.img-grand{
+    width: 100%;
+}
+
+#img-contain2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagenes2{
+    width: 45%;
+    cursor: pointer;
+    transition: all 500ms ease-out;
+    margin-bottom: 15px;
+}
+
+.imagenes{
+    margin-bottom: 15px; 
+    cursor: pointer;
+    transition: all 500ms ease-out;
+}
+
+footer{
+    padding: 15px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+
+.containers div{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #f9f5f2 ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contac{
+    font-weight: 700;
+}
+
+.contac2{
+    color: #afafaf  ;
+    margin-left: 10px;
+
+}
+
+@media(min-width:600px){
+
+    #who-i-am{
+        width: 100%;
+        background-image: url(../Portafolio1/Vectores/Estructura\ home\ desktop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        #my-photo img{
+            width: 37%;
+            height: auto;
+            border-radius: 80px;
+            position: relative;
+            left: 31.5%;
+            top: 55%;
+            object-position: center;}
+
+}
+
+@media(min-width:800px){
+
+    #my-photo img{
+        width: 30%;
+        height: auto;
+        border-radius: 80px;
+        position: relative;
+        left: 35.5%;
+        top: 55%;
+        object-position: center;
+        
+    }
+
+    #about-me p{
+        width: 90%;
+        padding: 0 10px;
+        border-left: solid 5px #197f5b ;
+        margin-left: 15%;
+    }
+
+    #mis-habilidades{
+        width: 60%;
+        margin-top: 30px;
+        padding: 15px;
+        margin-left: 20%;
+    }
+    
+    #img-contain{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #description{
+        justify-content: space-evenly;
+    }
+
+
+}
+@media(min-width:1000px){
+
+    h2{
+        font-size: 32px;
+    }
+
+
+    nav{
+        width: 100%;
+        height: 60px;
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-end;
+        align-content: center;
+        align-items: center;
+        background-color: #197f5b; 
+        padding: 10px;
+    }
+
+    
+
+    .checkbtn{
+        display: none;
+    }
+
+    ul{
+    
+        width: 100%;
+        height: 60px;
+        background-color: #197f5b;
+        text-align: center;
+        transition: none;
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0 0 ; 
+        gap: .75rem;
+        margin-right: 0;
+        z-index: 9999;
+    }
+
+    #tittle{
+        width: 60%;
+        text-justify:center;
+        height: 100px;
+        text-align: center;
+        color: #f9f5f2 ;
+        position: relative;
+        top: 10%;
+    }
+
+    #who-i-am{
+        width: 100%;
+        background-image: url(../Portafolio1/Vectores/Estructura\ home\ desktop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        }
+
+        .exp{
+            width: 200px;
+            background-color: #f9f5f2 ;
+            border-radius: 30px;
+            height: 80px;
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+
+        #exp1{
+            position: relative;
+            top: 200px;
+            left: 5%;
+        }
+        
+        #exp2{
+            position: relative;
+            top: 400px;
+            right: 5%;
+        }
+
+        #my-photo img{
+            width: 25%;
+            height: auto;
+            border-radius: 80px;
+            position: relative;
+            left: 37.5%;
+            top: 55%;
+            
+            object-fit: contain;
+            object-position: center;
+            
+        }
+
+        .icons1{
+            width: 50px;
+            height: 50px;
+            background-color: #f9f5f2 ;
+            padding: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 60px;
+        }
+
+        #email{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #input-e-mail{
+            width: 70%;
+            height: 100px;
+            background-color: rgb(245, 245, 245) ;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
